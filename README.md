@@ -15,7 +15,7 @@
 ## 使用方法
 ```
 # 编码
-python morsecode.py -e "Hello world!"
+python morse.py -e "Hello world!"
 # 编码并输出wav,以时间戳命名
 python morse.py -e "Hello world" -o
 # 解码
