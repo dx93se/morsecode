@@ -19,9 +19,9 @@ python morsecode.py -e "Hello world!"
 # 编码并输出wav,以时间戳命名
 python morse.py -e "Hello world" -o
 # 解码
-python morsecode.py -d ".... . .-.. .-.. ---   .-- --- .-. .-.. -.. -.-.--"
+python morse.py -d ".... . .-.. .-.. ---   .-- --- .-. .-.. -.. -.-.--"
 # 从音频中解码
-python morsecode.py -da sound.wav
+python morse.py -da sound.wav
 ```
 
 
